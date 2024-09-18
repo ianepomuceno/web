@@ -26,9 +26,9 @@ social: true # includes social icons at the bottom of the page
 
 ---
 
-I'm Profesora Titular at the Universidad de Sevilla and a resercher in the institute [i3US] (https://i3us.us.es/), [minerva] (https://grupo.us.es/minerva/equipo/) lab.
+I'm Profesora Titular at the Universidad de Sevilla and a resercher in the institute [i3US](https://i3us.us.es/), [minerva](https://grupo.us.es/minerva/equipo/) lab.
 
-My research interests focus on clinical bioinformatics, applied machine learning, and omics data analysis. I was actively involved in the European research network “Machine Learning Frontiers in Precision Medicine” [(MLFPM)] (https://mlfpm.eu/) together with the Andalusian Platform for Computational Medicine and have collaborated with international teams in advancing machine learning applications in healthcare.
+My research interests focus on clinical bioinformatics, applied machine learning, and omics data analysis. I was actively involved in the European research network “Machine Learning Frontiers in Precision Medicine” [(MLFPM)](https://mlfpm.eu/) together with the Andalusian Platform for Computational Medicine and have collaborated with international teams in advancing machine learning applications in healthcare.
 
 
 I am always looking for motivated students to supervise for Bachelor's, Master's, and PhD theses. If you are interested in machine learning, or biomedical data analysis, feel free to reach out to explore research opportunities. 
