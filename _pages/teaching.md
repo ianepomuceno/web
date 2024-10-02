@@ -16,12 +16,20 @@ nav_order: 6
 - Aplicaciones en Ciencia del Dato y Aprendizaje Automático, Máster Universitario en Análisis de Datos Ómicos y Biología de Sistemas.
 - Big Data en el Sector de la Salud, Máster Universitario en Ingeniería Biomédica y Salud Digital.
 
-## Previous courses
+### Previous courses
 
 - Fundamentos de Progamación, Grados de Ingeniería Informática e Ingeniería de la Salud.
 - Introducción a la Programación I y II, carreras de Ingeniería Informática (Planes en extinción).
 - Minería de Datos, Máster Universitario en Ingeniería y Tecnología del Software (Plan en extinción).
 
-# Divulgación
+
+## Mentoring
+
+### Completed theses
+  - Title: "Metodología Ensemble para Clasificación Ordinal y Aplicación en el Control de Calidad del Aceite de Oliva". PhD Belén Vega Márquez (2022)
+  
+### Ongoing PhD
+  - Title: "A new generative framework for Multivariate Time Series Imputation By Graph Neural Networks". Javier Solís (-)
+  - Title: "Generative models for synthetic data in the clinical domain". Halal Ahmed (-)
 
 

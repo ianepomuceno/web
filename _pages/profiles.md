@@ -4,6 +4,7 @@ permalink: /people/
 title: people
 description: members of the lab or group
 nav: true
+published: false
 nav_order: 7
 
 profiles:
