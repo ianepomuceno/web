@@ -88,8 +88,20 @@ jobs:
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
-      - name: Deploy 🚀
-        if: github.event_name != 'pull_request'
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Deploy files via SFTP
+        uses: pressidium/lftp-mirror-action@v1
         with:
-          folder: _site
+          # SFTP credentials
+          host: ${{ secrets.JEKYLL_TOKEN_SFTP_SERVER }}
+          port: 22
+          user: ${{ secrets.JEKYLL_TOKEN_SFTP_USER }}
+          pass: ${{ secrets.JEKYLL_TOKEN_SFTP_PASS }}
+          # lftp settings
+          onlyNewer: true
+          settings: 'sftp:auto-confirm=yes'
+          # Mirror command options
+          localDir: '_site'
+          remoteDir: '/inepomuceno'
+          reverse: true
+          ignoreFile: '.lftp_ignore'
+          options: '--verbose'
