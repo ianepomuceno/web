@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Revolutionizing Healthcare with AI: From Copilots to Clinical Discovery, by Mihaela van der Schaar. Seminario Salón de Grados.
+[Revolutionizing Healthcare with AI: From Copilots to Clinical Discovery, by Mihaela van der Schaar](https://www.etsii.us.es/index.php/noticias/charla-revolutionizing-healthcare-with-ai-from-copilots-to-clinical-discovery). Seminario Salón de Grados.
