@@ -26,7 +26,7 @@ social: true # includes social icons at the bottom of the page
 
 ---
 
-I'm Profesora Titular at the Universidad de Sevilla and a resercher in the institute [i3US](https://i3us.us.es/), [minerva](https://grupo.us.es/minerva/equipo/) lab.
+I'm Profesora Titular at the Universidad de Sevilla and a resercher in the institute [i3US](https://i3us.us.es/), [minerva](https://grupo.us.es/minerva/equipo/) lab. I received my Ph.D. by the University Pablo de Olavide in 2011, PhD Dissertation: [Reconocimiento de Redes de Genes Mediante Regresión](https://link.springer.com/article/10.1186/1471-2105-11-517).
 
 My research interests focus on applied machine learning, with an emphasis on machine learning for biomedical data analysis. I was actively involved in the European research network “Machine Learning Frontiers in Precision Medicine” [(MLFPM)](https://mlfpm.eu/) together with the Andalusian Platform for Computational Medicine and have collaborated with international teams in advancing machine learning applications in healthcare.
 
