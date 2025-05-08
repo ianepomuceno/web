@@ -28,10 +28,10 @@ social: true # includes social icons at the bottom of the page
 
 I'm Profesora Titular at the Universidad de Sevilla and a resercher in the institute [i3US](https://i3us.us.es/), [minerva](https://grupo.us.es/minerva/equipo/) lab. I received my Ph.D. by the University Pablo de Olavide in 2011, PhD Dissertation: [Reconocimiento de Redes de Genes Mediante Regresión](https://link.springer.com/article/10.1186/1471-2105-11-517).
 
-My research interests focus on applied machine learning, with an emphasis on machine learning for biomedical data analysis. I was actively involved in the European research network “Machine Learning Frontiers in Precision Medicine” [(MLFPM)](https://mlfpm.eu/) together with the Andalusian Platform for Computational Medicine and have collaborated with international teams in advancing machine learning applications in healthcare.
+My research interests focus on data science and applied machine learning , with an emphasis on machine learning for biomedical data analysis. I was actively involved in the European research network “Machine Learning Frontiers in Precision Medicine” [(MLFPM)](https://mlfpm.eu/) together with the Andalusian Platform for Computational Medicine and have collaborated with international teams in advancing machine learning applications in healthcare.
 
 
-I am always looking for motivated students to supervise for Bachelor's, Master's, and PhD theses. If you are interested in applied machine learning to accelerate scientific discovery, feel free to reach out to explore research opportunities. 
+I am always looking for motivated students to supervise for Bachelor's, Master's, and PhD theses. If you are interested in machine learning engineering or data science to accelerate scientific discovery, feel free to reach out to explore research opportunities. 
 
 
 En cuanto divulgación, suelo participar en los Café con Ciencia de la Universidad de Sevilla que se realizan con alumnos de bachillerato. Y también he participado en la [Noche Europea de los Investigadores](https://lanochedelosinvestigadores.fundaciondescubre.es/investigador/isabel-a-nepomuceno-chamorro/).
