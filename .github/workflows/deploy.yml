@@ -88,20 +88,14 @@ jobs:
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
-      - name: Deploy files via SFTP
-        uses: pressidium/lftp-mirror-action@v1
+      # El SFTP de personal.us.es solo es accesible con la VPN de la US, así que
+      # GitHub ya no puede subir la web. Guardamos la web compilada en la rama
+      # gh-pages y se publica desde el PC con bin/deploy.cmd (con la VPN puesta).
+      - name: Save built site to gh-pages branch 📦
+        if: github.event_name != 'pull_request'
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          # SFTP credentials
-          host: ${{ secrets.JEKYLL_TOKEN_SFTP_SERVER }}
-          port: 22
-          user: ${{ secrets.JEKYLL_TOKEN_SFTP_USER }}
-          pass: ${{ secrets.JEKYLL_TOKEN_SFTP_PASS }}
-          # lftp settings
-          onlyNewer: true
-          settings: 'sftp:auto-confirm=yes'
-          # Mirror command options
-          localDir: '_site'
-          remoteDir: '/inepomuceno'
-          reverse: true
-          ignoreFile: '.lftp_ignore'
-          options: '--verbose'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          publish_branch: gh-pages
+          force_orphan: true
