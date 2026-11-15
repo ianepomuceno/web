@@ -24,6 +24,12 @@ if (-not (Test-NetConnection $Server -Port 22 -InformationLevel Quiet -WarningAc
   Fail "No se puede conectar a $Server por SFTP. Conecta la VPN de la US y vuelve a intentarlo."
 }
 
+while (-not $User.Trim()) {
+  $User = Read-Host "`nUsuario SFTP de personal.us.es"
+  if ($null -eq $User) { Fail "No se ha podido leer el usuario. Ejecuta bin\deploy.cmd con doble clic." }
+}
+$User = $User.Trim()
+
 # 2. Descargar la ultima version compilada
 Write-Host "Descargando la web compilada desde GitHub ..."
 git -C $repo fetch --quiet origin $Branch master
@@ -59,8 +65,6 @@ try {
   $cmds += "bye"
   $batch = Join-Path $tmp ".sftp-batch.txt"
   [IO.File]::WriteAllLines($batch, $cmds)   # UTF-8 sin BOM
-
-  if (-not $User) { $User = Read-Host "Usuario SFTP" }
 
   # 4. Subir (pedira la contrasena)
   Write-Host "`nSubiendo a $User@${Server}:$RemoteDir (te pedira la contrasena) ..."
